@@ -1,0 +1,159 @@
+/* 
+MASONRY ============================== 
+*/
+.maso .box_overlaybox {
+    height: 100%;
+}
+
+.maso .eo_s2_px ,.maso .eo_card_details_box p {
+    height: auto;
+}
+
+.maso .eo_s2_downbox .so_title {
+    white-space: normal;
+}
+
+.row-a .event_img_s2 ,.row-a .eo_card_img {
+    height: 250px;
+}
+
+.row-b .event_img_s2,.row-b .eo_card_img {
+    height: 350px;
+}
+
+.maso,
+.maso-sizer {
+    width: 33%;
+}
+
+.maso {
+    float: left;
+    display: block;
+    margin: 0;
+    overflow: hidden;
+}
+
+    .maso .box {
+        overflow: hidden;
+        height: 100%;
+    }
+
+    .maso:after {
+        content: '';
+        display: block;
+        clear: both;
+    }
+
+.masonrybox {
+    clear: both;
+    width: 100%;
+}
+
+.eocol-1 {
+    width: 100%;
+}
+
+.eocol-2 {
+    width: 50%;
+}
+
+.eocol-3 {
+    width: 33%;
+}
+
+.eocol-4 {
+    width: 24.9%;
+}
+
+.eventon_sort_line, .eventon_filter_line {
+    float: left;
+    padding-right: 13px;
+    border: none !important;
+}
+
+.ajde_evcal_calendar .evo_sort_btn, .eventon_sf_field p, .evo_srt_sel p.fa {
+    color: #7C7C7C;
+}
+
+.evo_srt_sel p {
+    cursor: pointer;
+}
+
+.eosa_sortorder {
+    height: 24px;
+    margin-top: -2px;
+    padding: 0 10px;
+    float: left;
+    cursor: pointer;
+    border-right: 1px solid #DBDBDB;
+    border-left: 1px solid #DBDBDB;
+}
+
+    .eosa_sortorder .fa {
+        color: #BBB;
+        font-size: 12px;
+        line-height: 25px;
+    }
+
+    .eosa_sortorder:hover .fa {
+        opacity: 0.7;
+    }
+    
+.filter_loader {
+    box-shadow: none !important;
+    width: 18px;
+    display: none;
+}
+
+/* ############## MOBILE ################### */
+@media (max-width: 500px) {
+    .eocol-1, .eocol-2, .eocol-3, .eocol-4 {
+        width: 100%;
+    }
+
+    .row-a .event_img_s2, .row-b .event_img_s2, .event_img_s2 {
+        height: 150px;
+    }
+
+    .ms1_0_eo_date {
+        font-size: 15px;
+    }
+
+    .ms1_0_eo_date_m, .eo_s2_downbox .so_title {
+        font-size: 11px;
+    }
+
+    .maso .eo_s2_px {
+        max-height: 50px;
+    }
+    .maso {
+          padding-right: 0 !important;
+    }
+    .main_event .eventon_sort_line .evs, .eventon_sort_line .evs_3 p, .eventon_sf_field, .eventon_filter_selection {
+        float: none;
+        display: inline-block;
+        position: static;
+    }
+
+    .main_event .eventon_sorting_section {
+        text-align: center;
+    }
+
+    .main_event .eventon_sort_line.evo_sortOpt {
+        display: inline-block;
+        float: none;
+    }
+
+    .main_event .evo_sortorder {
+        text-align: center;
+        display: inline-block;
+        float: none;
+        height: 18px;
+    }
+
+    .evo_sortorder .fa {
+        top: -3px;
+        position: relative;
+    }
+}
+/* ############## FINISH MOBILE ################### */
